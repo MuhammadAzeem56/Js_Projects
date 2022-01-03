@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://source.unsplash.com/1660x900/?london');
+    color: white;
+}
+
+.coloured-text {
+    color: green;
+    text-transform: uppercase;
+}
+
+.text-box {
+    width: 200px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.submit {
+    background-color: green;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.main-div {
+    text-align: center;
+    color: black;
+}
+
+.temp {
+    background-color: rgb(49, 46, 42);
+}
+
+.weather {
+    margin-top: 20px;
+    background-color: rgb(128, 123, 123);
+    opacity: 0.8;
+    display: flex;
+    height: 350px;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width: 450px) {
+    .text-box {
+        width: 100px;
+        border-radius: 5px;
+    }
+    .submit {
+        background-color: green;
+        border-radius: 5px;
+    }
+    .main-div {
+        text-align: center;
+    }
+    .weather {
+        margin-top: 10px;
+        background-color: rgb(128, 123, 123);
+        opacity: 0.8;
+        display: flex;
+        height: 350px;
+        width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .icon {
+        height: 70px;
+        width: 70px;
+        background-color: rgb(88, 78, 78);
+        border-radius: 5px;
+    }
+}
